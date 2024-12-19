@@ -1,7 +1,5 @@
 # MLDS_sprint14-SL-Classification
 
-# 14
-
 ## Task 1. Binary Classification Using Logistic Regression
 
 #### **Problem Description**
