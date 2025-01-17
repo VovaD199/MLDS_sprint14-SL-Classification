@@ -87,3 +87,26 @@ You are tasked with implementing a **Naive Bayes Classifier** for a binary class
   - Evaluation metrics: Accuracy, Precision, Recall, F1-Score.
   - Visualization of the decision boundary.
 
+
+
+## Running Tests
+
+This project uses [pytest](https://pytest.org) for testing. Follow these steps to run the tests:
+
+1. **Install dependencies**:  
+   Ensure all required dependencies are installed. If a `requirements.txt` file is provided, run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run all tests**:
+   To execute all tests in the project, use the following command:
+   ```bash
+   pytest
+   ```
+3. **Enable detailed logging**:
+   To enable detailed logging during the test run, use:
+   ```bash
+   pytest -o log_cli=true --log-cli-level=INFO
+
+   ```
